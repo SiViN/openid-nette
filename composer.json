@@ -1,0 +1,29 @@
+{
+  "name": "sivin/openid-nette",
+  "description": "OpenID for Nette Framework",
+  "type": "library",
+  "require": {
+	"php": ">= 7.0",
+	"nette/di": "^2.4",
+	"steverhoades/oauth2-openid-connect-client": "^0.3.0"
+  },
+  "license": "MIT",
+  "authors": [
+	{
+	  "name": "Milan Sivak",
+	  "email": "sivin@atlas.cz"
+	}
+  ],
+  "autoload": {
+	"psr-4": {
+	  "SiViN\\OpenIdNette\\": "src/"
+	}
+  },
+  "minimum-stability": "dev",
+  "repositories": [
+	{
+	  "type": "vcs",
+	  "url": "https://github.com/SiViN/oauth2-openid-connect-client"
+	}
+  ]
+}
